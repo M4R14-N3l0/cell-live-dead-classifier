@@ -1,6 +1,6 @@
 # Cell Live Dead Classifier
 
-Este proyecto, alojado en github.com/M4R14-N3l0/cell-live-dead-classifier, fue desarrollado utilizando Visual Studio Code (VS Code) como entorno de trabajo.
+Este proyecto fue desarrollado utilizando Visual Studio Code (VS Code) como entorno de trabajo.
 ---
 🔬 Clasificador de Células Vivas y Muertas con Redes Neuronales (CNN)
 
