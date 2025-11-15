@@ -206,29 +206,29 @@ Por lo tanto, NO debes normalizar nuevamente en la fase de predicción.
 
 
                         ┌──────────────────────────┐
-                        │     Imagen de entrada     │
-                        │        128 × 128 × 3      │
+                        │     Imagen de entrada    │
+                        │        128 × 128 × 3     │
                         └────────────┬─────────────┘
                                      │
                                      ▼
                        ┌──────────────────────────┐
-                       │   Rescaling (normaliza)   │
-                       │   Valores 0–255 → 0–1     │
+                       │   Rescaling (normaliza)  │
+                       │   Valores 0–255 → 0–1    │
                        └────────────┬─────────────┘
                                      │
                                      ▼
           ┌────────────────────── Primera etapa de aprendizaje ───────────────────────┐
-          │                                                                             │
-          │   ┌──────────────┐     ┌──────────────┐     ┌──────────────┐                │
-          │   │   Conv2D     │     │   Conv2D     │     │   Conv2D     │                │
-          │   │ (32 filtros) │ →   │ (64 filtros) │ →   │ (128 filtros)│                │
-          │   └──────┬───────┘     └──────┬───────┘     └──────┬──────┘                 │
-          │          │                    │                    │                        │
-          │   ┌──────▼──────┐     ┌──────▼──────┐     ┌──────▼──────┐                   │
-          │   │ MaxPooling  │     │ MaxPooling  │     │ MaxPooling  │                   │
-          │   └─────────────┘     └─────────────┘     └─────────────┘                   │
-          │                                                                             │
-          └─────────────────────────────────────────────────────────────────────────────┘
+          │                                                                           │
+          │   ┌──────────────┐     ┌──────────────┐     ┌──────────────┐              │
+          │   │   Conv2D     │     │   Conv2D     │     │   Conv2D     │              │
+          │   │ (32 filtros) │ →   │ (64 filtros) │ →   │ (128 filtros)│              │
+          │   └──────┬───────┘     └──────┬───────┘     └──────┬──────┘               │
+          │          │                    │                    │                      │
+          │   ┌──────▼──────┐     ┌──────▼──────┐     ┌──────▼──────┐                 │
+          │   │ MaxPooling  │     │ MaxPooling  │     │ MaxPooling  │                 │
+          │   └─────────────┘     └─────────────┘     └─────────────┘                 │
+          │                                                                           │
+          └───────────────────────────────────────────────────────────────────────────┘
 
                                      │
                                      ▼
@@ -251,15 +251,15 @@ Por lo tanto, NO debes normalizar nuevamente en la fase de predicción.
                                │
                                ▼
                 ┌───────────────────────────────────────────┐
-                │          Dense (1) + Sigmoid               │
-                │   Salida entre 0 y 1 = probabilidad de     │
-                │         que la célula esté viva            │
+                │          Dense (1) + Sigmoid              │
+                │   Salida entre 0 y 1 = probabilidad de    │
+                │         que la célula esté viva           │
                 └───────────────────────────────────────────┘
 
                                      │
                                      ▼
                         ┌──────────────────────────┐
-                        │  Resultado final          │
-                        │  Ej: 0.87 = 87% viva      │
+                        │  Resultado final         │
+                        │  Ej: 0.87 = 87% viva     │
                         └──────────────────────────┘
 
