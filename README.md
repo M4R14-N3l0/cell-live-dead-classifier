@@ -262,4 +262,21 @@ Por lo tanto, NO debes normalizar nuevamente en la fase de predicción.
                         │  Resultado final         │
                         │  Ej: 0.87 = 87% viva     │
                         └──────────────────────────┘
+---
+🧰 Entorno de Desarrollo
+
+Este proyecto fue desarrollado utilizando Visual Studio Code (VS Code) como entorno principal.
+Se recomienda utilizarlo para ejecutar, editar y organizar el proyecto, ya que facilita:
+
+la gestión del entorno virtual,
+
+la ejecución de los scripts desde la terminal integrada,
+
+la visualización del árbol de archivos,
+
+el uso de extensiones como Python.
+
+Extensiones recomendadas:
+
+Python (Microsoft)
 
