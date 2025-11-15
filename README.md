@@ -1,4 +1,7 @@
-# cell-live-dead-classifier
+# Cell Live Dead Classifier
+
+Este proyecto, alojado en github.com/M4R14-N3l0/cell-live-dead-classifier, fue desarrollado utilizando Visual Studio Code (VS Code) como entorno de trabajo.
+---
 CNN classifier for distinguishing live vs. dead cells using microscopy images. Includes training, prediction, and dataset preparation.
 ---
 🔬 Clasificador de Células Vivas y Muertas con Redes Neuronales (CNN)
