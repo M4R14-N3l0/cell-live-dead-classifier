@@ -1,7 +1,5 @@
 # Cell Live Dead Classifier
 
-Este proyecto fue desarrollado utilizando Visual Studio Code (VS Code) como entorno de trabajo.
----
 🔬 Clasificador de Células Vivas y Muertas con Redes Neuronales (CNN)
 
 Este proyecto utiliza visión por computadora y redes neuronales convolucionales (en inglés, CNN) para clasificar imágenes microscópicas de células como vivas o muertas.
@@ -266,7 +264,8 @@ Por lo tanto, NO debes normalizar nuevamente en la fase de predicción.
 ---
 🧰 Entorno de Desarrollo
 
-Este proyecto fue desarrollado utilizando Visual Studio Code (VS Code) como entorno principal.
+Este proyecto fue desarrollado utilizando Visual Studio Code (VSC) como entorno principal.
+
 Se recomienda utilizarlo para ejecutar, editar y organizar el proyecto, ya que facilita:
 
 la gestión del entorno virtual,
@@ -275,9 +274,5 @@ la ejecución de los scripts desde la terminal integrada,
 
 la visualización del árbol de archivos,
 
-el uso de extensiones como Python.
-
-Extensiones recomendadas:
-
-Python (Microsoft)
+el uso de extensiones como Python (Microsoft).
 
